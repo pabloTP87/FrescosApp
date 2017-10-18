@@ -15,7 +15,6 @@ import cl.inacap.puntaarenas.frescosapp.Modelo.Usuario;
 public class MainActivity extends AppCompatActivity {
 
     EditText txtUsuario;
-
     EditText txtContraseña;
     Button btnIngresar;
     String username;
