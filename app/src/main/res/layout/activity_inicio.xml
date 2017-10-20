@@ -5,14 +5,45 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="cl.inacap.puntaarenas.frescosapp.InicioActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Ingresar Cliente" />
+
+    <EditText
+        android:id="@+id/ingresoCliente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+         />
+
+    <Button
+        android:id="@+id/crearCliente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="crear"
+        android:text="Crear"
+        />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Aqui va la lista de los modulos"
+        android:text="Lista de clientes"
+        />
 
+    <ListView
+        android:id="@+id/listaClientes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
 
         />
+
 
 </LinearLayout>
