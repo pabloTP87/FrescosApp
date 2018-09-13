@@ -1,15 +1,18 @@
 package cl.inacap.puntaarenas.frescosapp;
 
 import android.content.Intent;
+import android.support.annotation.DrawableRes;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import java.util.ArrayList;
 
+import cl.inacap.puntaarenas.frescosapp.Modelo.Producto;
 import cl.inacap.puntaarenas.frescosapp.Modelo.Usuario;
 
 public class MainActivity extends AppCompatActivity {
@@ -31,15 +34,11 @@ public class MainActivity extends AppCompatActivity {
         txtUsuario=(EditText)findViewById(R.id.usuario);
         txtContraseña=(EditText) findViewById(R.id.password);
         btnIngresar=(Button) findViewById(R.id.ingresar);
-
-
         usuario= new ArrayList <Usuario>();
         user1=new Usuario("ptomey","pablo123");
         user2=new Usuario("gmancilla","galmier123");
         usuario.add(0,user1);
         usuario.add(1,user2);
-
-
 
     }
     public void enviar(View view){

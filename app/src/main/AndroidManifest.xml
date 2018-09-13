@@ -16,7 +16,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".InicioActivity"></activity>
+        <activity android:name=".InicioActivity" />
+        <activity android:name=".IngresarPedidoActivity" />
+        <activity android:name=".GestionClienteActivity" />
+        <activity android:name=".IngresarClienteActivity" />
+        <activity android:name=".ListaClienteActivity" />
+        <activity android:name=".ModificarClienteActivity" />
+        <activity android:name=".RealizarPedidoActivity" />
+        <activity android:name=".ListaPedidosEntregadosActivity"></activity>
     </application>
 
 </manifest>

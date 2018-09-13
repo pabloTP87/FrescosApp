@@ -6,7 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="cl.inacap.puntaarenas.frescosapp.MainActivity">
+    tools:context="cl.inacap.puntaarenas.frescosapp.MainActivity"
+    android:weightSum="1">
 
     <TextView
         android:layout_width="wrap_content"
@@ -17,12 +18,21 @@
         android:layout_gravity="center"
         />
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="147dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/productos"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0.28" />
+
     <TextView
 
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="85dp"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="30dp"
         android:text="Usuario"
         android:textSize="15dp" />
 
